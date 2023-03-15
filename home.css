@@ -1,0 +1,44 @@
+nav form button{
+    background-color: white;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    color: blue;
+    margin-left:210px;
+    padding-top: 10px;
+}
+.heading{
+    margin-top: 120px;
+}
+.firstDiv{
+    width:99%;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+footer{
+    background-color: rgb(6, 3, 44);
+    margin-top: 40px;
+    width: 98%;
+    margin-left: 10px;
+
+
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.vertical{
+    border-left: 1px solid grey;
+    height: 300px;
+}
+footer p{
+    color: white;
+    font-size: 12px;
+}
+.col img:hover{
+    transform: scale(1.10);
+}
+.col img{
+    transition: all 0.2s;
+}

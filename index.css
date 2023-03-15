@@ -1,0 +1,139 @@
+
+nav form button{
+    background-color: white;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    color: blue;
+    margin-left:210px;
+    padding-top: 10px;
+}
+.login{
+    position: absolute;
+    top: 60%;
+    height: 350px;
+    width: 300px;
+    margin-left: -100px;
+    background-color: white;
+    box-shadow: -5px 5px 7px rgba(0,0,0,0.2),5px 5px 10px rgba(0,0,0,0.2);
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 10px;
+    font-weight: 500px;
+    color: black;
+    display: none;
+}
+.triangle{
+    position: relative;
+    top: -8px;
+    height: 0%;
+    width: 0%;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 12px solid white;
+
+}
+.newUser{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    font-size: 16px;
+    color: royalblue;
+    text-decoration: none;
+}
+.newUser p{
+    margin-left: -50px;
+}
+.newUser a{
+    margin-left:30px;
+}
+.newUser a:hover{
+    text-decoration: underline;
+}
+.loginMenu{
+    width: 230px;
+    margin-top: 23px;
+}
+.loginMenu i{
+    margin-top: 2px;
+    color: blue;
+}
+.menuList{
+    display: flex;
+    padding: 8px 0px;
+}
+.menuList p{
+    padding-left: 22px;
+}
+.btn:hover .login{
+    display: flex;
+    cursor: pointer;
+}
+
+.firstDiv{
+    margin-top: 130px;
+    width:99%;
+    font-size: 12.6px;
+    font-weight: bold;
+}
+.secondDiv{
+    width: 99%;
+    margin-left:-10px;
+    margin-top: 40px;
+}
+.secondDiv img{
+    
+    width:1150px;
+    height: 270px;
+}
+.thirdDiv{
+    width:99%;
+    background-color: rgb(243, 254, 251);
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.fourthDiv{
+    width:99%;
+    background-color: rgb(252, 244, 250);
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.fifthDiv{
+    width:99%;
+    background-color: rgb(238, 251, 242);
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.sixthDiv{
+    width:99%;
+    background-color: rgb(252, 244, 250);
+    margin-left: 10px;
+    margin-top: 40px;
+
+}
+footer{
+    background-color: rgb(6, 3, 44);
+    margin-top: 40px;
+    width: 98%;
+    margin-left: 10px;
+
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.vertical{
+    border-left: 1px solid grey;
+    height: 300px;
+}
+footer p{
+    color: white;
+    font-size: 12px;
+}
+.col img:hover{
+    transform: scale(1.10);
+}
+.col img{
+    transition: all 0.2s;
+}
